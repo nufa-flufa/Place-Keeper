@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User page</title>
+
+    <link rel="stylesheet" href="css/user-page-style.css">
+    <!-- <style contenteditable>
+        body{
+            color: black;
+        }
+    </style> -->
+</head>
+
+<body onload="onInit()">
+    <section class="form-container" onsubmit="onChangeDisplay(event)">
+        <form onsubmit="">
+            <div>
+                <h4>Choose your background color</h4>
+                <input type="color" name="bg-color" value="#ffffff">
+            </div>
+            <div>
+                <h4>Choose your text color</h4>
+                <input type="color" name="text-color">
+            </div>
+            <div>
+                <h4>What is your birthday?</h4>
+                <input type="date" placeholder="Birthday" name="date">
+            </div>
+            <div>
+                <h4>Email</h4>
+                <input type="email" name="email" required />
+            </div>
+            <button>Submit</button>
+        </form>
+    </section>
+
+
+    <script src="js/service/utils-service.js"></script>
+    <script src="js/service/storage-service.js"></script>
+    <script src="js/service/userPref-service.js"></script>
+    <script src="js/service/place-service.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>

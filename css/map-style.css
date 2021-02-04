@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: greenyellow; */
+}
+
+.table{
+    /* height: 800px; */
+
+    margin-top: 30px;
+   
+}
+
+.cell{
+    padding: 10px;
+    height: 40px;
+    /* width: 120px; */
+    border: 3px solid black;
+    display: table-cell;
+}
+button{
+    height: 36px;
+    width: 80px;
+    border-radius: 4px;
+}
